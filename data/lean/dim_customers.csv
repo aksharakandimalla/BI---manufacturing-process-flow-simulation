@@ -1,9 +1,0 @@
-customer_id,customer_name,customer_tier,region,on_time_delivery_target_pct
-CUS-001,Apex Manufacturing,Platinum,North America,97
-CUS-002,BlueStar Industries,Gold,Asia-Pacific,95
-CUS-003,CrestLine Engineering,Gold,Asia-Pacific,99
-CUS-004,Delta Precision Corp,Gold,Asia-Pacific,98
-CUS-005,EagleTech Solutions,Silver,North America,97
-CUS-006,ForgeMaster Inc,Silver,Europe,98
-CUS-007,GlobalDrive Systems,Platinum,Europe,95
-CUS-008,HorizonMech Ltd,Platinum,North America,98

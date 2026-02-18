@@ -1,9 +1,0 @@
-product_id,product_name,product_family,routing_steps,routing_sequence,base_material_cost,target_cycle_time_min
-PRD-001,Hydraulic Valve Body,Hydraulic Components,4,CNC Mill → Drill Press → Surface Grinder → Inspection Station,45.0,110
-PRD-002,Gear Assembly,Drivetrain,4,CNC Lathe → Surface Grinder → Assembly Station → Inspection Station,62.0,140
-PRD-003,Pump Housing,Hydraulic Components,4,CNC Mill → Drill Press → CNC Lathe → Inspection Station,38.0,115
-PRD-004,Motor Shaft,Drivetrain,3,CNC Lathe → Surface Grinder → Inspection Station,28.0,80
-PRD-005,Control Panel Frame,Electrical Enclosures,4,CNC Mill → Drill Press → Assembly Station → Inspection Station,55.0,140
-PRD-006,Bearing Cap,Drivetrain,4,CNC Lathe → Drill Press → Surface Grinder → Inspection Station,18.0,100
-PRD-007,Manifold Block,Hydraulic Components,5,CNC Mill → Drill Press → Drill Press → Surface Grinder → Inspection Station,72.0,130
-PRD-008,Sensor Bracket,Electrical Enclosures,4,CNC Mill → Drill Press → Assembly Station → Inspection Station,12.0,140
