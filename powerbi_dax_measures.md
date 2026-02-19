@@ -57,15 +57,7 @@ Availability =
     )
 
 -- Performance: actual cycle / target cycle
-Performance =
-    DIVIDE(
-        AVERAGE(fact_production[cycle_time_min]),
-        RELATED(dim_stations[target_cycle_time_min]),
-        0
-    )
-    -- NOTE: This measure only works when filtered to a single station.
-    -- For a card visual, use the simplified version below instead:
-
+-- Uses SUMX to iterate row-by-row (RELATED needs row context)
 Performance Ratio =
     DIVIDE(
         SUMX(fact_production, fact_production[cycle_time_min]),
@@ -149,7 +141,7 @@ Planned Downtime Hours =
 
 Avg Downtime Duration = AVERAGE(fact_downtime[duration_hours])
 
-MTBF (Mean Time Between Failures) =
+MTBF =
     DIVIDE(
         [Planned Hours],
         CALCULATE(
